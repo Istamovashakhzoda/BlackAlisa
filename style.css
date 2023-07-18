@@ -55,6 +55,7 @@ body{
     color: white;
     line-height: 55px;
     padding-top: 50px;
+    font-family: font;
 }
 
 .par h1{
@@ -63,7 +64,7 @@ body{
 
 .par p{
     font-size: 39px;
-    font-family: sans-serif;
+    /* font-family: sans-serif; */
 }
 
 .line{
