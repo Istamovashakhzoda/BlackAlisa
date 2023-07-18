@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: font;
+    src: url(./font/Fonts/static/OpenSans-Medium.ttf);
+}
+
+body{
+    background-color: black;
+}
+
+.moun{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.ico span{
+    color: white;
+    font-size: 80px;
+}
+
+.nav ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+.nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-family: font;
+}
+
+.pict{
+    display: flex;
+    width: 80vw;
+    margin: 50px 0 0 0;
+    text-align: center;
+    align-items: center;
+}
+
+.img img{
+    width: 320px;
+    height: 360px;
+    border: 1px solid white;
+}
+
+.par{
+    color: white;
+    line-height: 55px;
+    padding-top: 50px;
+}
+
+.par h1{
+    font-size: 49px;
+}
+
+.par p{
+    font-size: 39px;
+    font-family: sans-serif;
+}
+
+.line{
+    width: 550px;
+    height: 1px;
+    background-color: white;
+    text-align: center;
+}
+
+.ico span{
+    color: white;
+    font-size: 50px;
+}
+
+.ico{
+    text-align: center;
+    display: flex;
+    width: 50vw;
+}
